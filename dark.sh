@@ -4,10 +4,10 @@
 
 #echo "applying theme"
 
-#this is a link showing how to use it 
+#this is a link showing how to use it "https://youtu.be/miEoCtTJOJ8" 
 
 #this script was heavily assisted by zren u/Zren on reddit 
-# his website has very good tutorials 
+# his website has very good tutorials http://zren.github.io/
 # this is not the final stage of this script i would evolve to a plasmoid 
 #widget with a gui for switching theme, colour style, icon as none is currently avaiable with  all the above  in kde 
 
@@ -65,7 +65,7 @@ kwriteconfig5  --file ~/.config/plasmarc  --group Theme --key name "breeze-dark"
 #sometimes latte does not update the theme well 
 #when using some type of layout and needs to be restarted
 # uncomment the command below 
-latte-dock --replace &
+#latte-dock --replace &
 
 ###########################################
 
