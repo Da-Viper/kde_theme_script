@@ -31,7 +31,7 @@ lookandfeeltool -a org.kde.breeze.desktop
 
 #this sets the plasma style and the widgets style 
 ##[Plasma Style]
-#[usr] ~.local/share/plasma/desktoptheme
+#[usr] ~/.local/share/plasma/desktoptheme
 #[sys] /usr/share/plasma/desktoptheme 
 #change breeze-dark with the name of the folder in any of the above location
 ##[Plasma Style]
@@ -68,7 +68,7 @@ kwriteconfig5  --file ~/.config/plasmarc  --group Theme --key name "breeze-light
 #sometimes latte does not update the theme well 
 #when using some type of layout and needs to be restarted
 # uncomment the command below 
-#latte-dock --replace &
+latte-dock --replace &
 
 ###########################################
 
